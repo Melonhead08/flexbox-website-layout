@@ -106,8 +106,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.25em;
   padding: 0em 2em;
-  height: 100%;
   color: #fff;
+  justify-content: center;
 }
 
 header,
@@ -126,7 +126,6 @@ header {
 }
 
 main {
-  height: 250px;
   width: 100%;
   border-bottom:.0625rem #fff solid;
 }
@@ -136,21 +135,9 @@ footer,
 main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
   align-items: center;
 }
-
-#div-1,
-#div-2,
-#div-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25rem;
-}
-
 
 span {
   font-weight: 900;
@@ -162,9 +149,8 @@ span {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-flow: row wrap;
-  
+
 }
 
 .flex-items {
@@ -172,11 +158,11 @@ span {
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  border-bottom: 1px solid #555;
+
 }
 
 /* ==========================================================================
